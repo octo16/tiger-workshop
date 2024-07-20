@@ -2,7 +2,7 @@
   "executionRoleArn": "arn:aws:iam::621244614945:role/ecsTaskExecutionRole",
   "containerDefinitions": [
     {
-      "name": "dogs",
+      "name": "workshop-dogs",
       "image": "621244614945.dkr.ecr.ap-northeast-2.amazonaws.com/workshop-dogs:latest",
       "essential": true,
       "portMappings": [
