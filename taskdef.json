@@ -11,10 +11,7 @@
           "protocol": "tcp",
           "containerPort": 80
         }
-      ],
-      "linuxParameters": {
-	      "initProcessEnabled": true
-    }
+      ]
   ],
   "requiresCompatibilities": [
     "FARGATE"
