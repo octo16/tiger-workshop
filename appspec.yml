@@ -1,0 +1,15 @@
+version: 0.0
+Resources:
+  - TargetService:
+      Type: AWS::ECS::Service
+      Properties:
+        TaskDefinition: <TASK_DEFINITION>
+        LoadBalancerInfo:
+          ContainerName: "workshop-dogs"
+          ContainerPort: 80
+#Hooks:
+#- BeforeInstall: "BeforeInstallHookFunctionName"
+#- AfterInstall: "AfterInstallHookFunctionName"
+#- AfterAllowTestTraffic: "AfterAllowTestTrafficHookFunctionName"
+#- BeforeAllowTraffic: "BeforeAllowTrafficHookFunctionName"
+#- AfterAllowTraffic: "AfterAllowTrafficHookFunctionName"
