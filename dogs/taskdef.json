@@ -1,5 +1,6 @@
 {
   "executionRoleArn": "arn:aws:iam::621244614945:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::621244614945:role/ecstask",
   "containerDefinitions": [
     {
       "name": "workshop-dogs",
